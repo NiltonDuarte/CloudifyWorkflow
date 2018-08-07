@@ -1,0 +1,6 @@
+workflows:
+  my_workflow: 
+    mapping: my_workflow_plugin.my_workflow.my_workflow_method
+    parameters:
+      param:
+        description: this parameter is mandatory
