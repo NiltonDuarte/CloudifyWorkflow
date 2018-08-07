@@ -1,3 +1,10 @@
+plugins:
+  openstack:
+    executor: central_deployment_agent
+    source: https://github.com/NiltonDuarte/CloudifyWorkflow/archive/master.zip
+    package_name: my_workflow
+    package_version: '0.0'
+
 workflows:
   my_workflow: 
     mapping: my_workflow_plugin.my_workflow.my_workflow_method
